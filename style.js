@@ -2,13 +2,6 @@ const input1 = document.getElementById("input1");
 const input2 = document.getElementById("input2");
 const result = document.getElementById("result");
 
-document.getElementById("input1").addEventListener("input", function () {
-    this.value = this.value.replace(/[^0-9.-]/g, "");
-});
-document.getElementById("input2").addEventListener("input", function () {
-    this.value = this.value.replace(/[^0-9.-]/g, "");
-});
-
 function calculator(operation) {
     result.className = "";
 
