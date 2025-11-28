@@ -13,7 +13,7 @@ function calculator(operation) {
     result.className = "";
 
     if (input1.value === "" || input2.value === "") {
-        result.innerHTML = "Hãy nhập số vào đủ";
+        result.innerHTML = "Dữ kiện không đủ";
         return;
     }
 
@@ -38,7 +38,7 @@ function calculator(operation) {
             break;
         case "getDiv":
             if (numb2 === 0) {
-                output = "Không có số nào chia cho 0";
+                output = "Không chia được cho 0";
                 break;
             } else {
                 output = numb1 / numb2;
