@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inder&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="calculator">
+            <h1>Calculator Simple</h1>
+
+            <!-- Ô kết quả -->
+            <div id="result"></div>
+
+            <div class="container_input">
+                <!-- Ô input 1 -->
+                <div class="box_input">
+                    <h2>Input 1</h2>
+                    <input
+                        type="text"
+                        placeholder="Nhập vào đây"
+                        id="input1"
+                        class="input"
+                    />
+                </div>
+
+                <!-- Ô input 2 -->
+                <div class="box_input">
+                    <h2>Input 2</h2>
+                    <input
+                        type="text"
+                        placeholder="Nhập vào đây"
+                        id="input2"
+                        class="input"
+                    />
+                </div>
+            </div>
+
+            <!-- Phép tính -->
+            <div class="container_button">
+                <button id="getAdd">+</button>
+                <button id="getSub">-</button>
+                <button id="getMul">*</button>
+                <button id="getDiv">/</button>
+            </div>
+        </div>
+    </body>
+    <script src="style.js"></script>
+</html>
